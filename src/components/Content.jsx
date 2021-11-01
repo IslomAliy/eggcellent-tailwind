@@ -5,20 +5,20 @@ import ImageTwo from "../images/egg-2.jpg";
 function Content() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center bg-white h-screen font-mono py-40">
+      <div className="menu-card">
         <img src={ImageOne} alt="egg" className="h-full rounded mb-20 shadow" />
-        <div className="flex flex-col justify-center items-center ">
+        <div className="center-content">
           <h2 className="text-2xl mb-2">Egg Muffins</h2>
           <p className="mb-2">Crispy, delicious, and nutrituous</p>
           <span>$16</span>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center bg-white h-screen font-mono py-40">
+      <div className="menu-card">
         <img src={ImageTwo} alt="egg" className="h-full rounded mb-20 shadow" />
-        <div className="flex flex-col justify-center items-center ">
-          <h2 className="text-2xl mb-2">Egg Muffins</h2>
+        <div className="center-content">
+          <h2 className="text-2xl mb-2">Egg Salad</h2>
           <p className="mb-2">Crispy, delicious, and nutrituous</p>
-          <span>$16</span>
+          <span>$18</span>
         </div>
       </div>
     </>
